@@ -1,0 +1,835 @@
+{
+  "intents": [
+    {
+      "intent": "timings_for_telugu_class",
+      "examples": [
+        {
+          "text": "timings of telugu class?"
+        },
+        {
+          "text": "telugu class?"
+        },
+        {
+          "text": "telugu class timings?"
+        },
+        {
+          "text": "when does telugu class starts?"
+        }
+      ],
+      "description": "displays the timings of telugu class"
+    },
+    {
+      "intent": "greetings",
+      "examples": [
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Welcome"
+        },
+        {
+          "text": "Kia Ora"
+        },
+        {
+          "text": "Hai"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Good Morning"
+        },
+        {
+          "text": "Good Afternoon"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "timings_for_hindi_class",
+      "examples": [
+        {
+          "text": "what are the timings for hindi class?"
+        },
+        {
+          "text": "when does hindi class starts?"
+        },
+        {
+          "text": "hindi class timings?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "timings_for_english_class",
+      "examples": [
+        {
+          "text": "what are the timings for english class?"
+        },
+        {
+          "text": "when does the english calss starts?"
+        },
+        {
+          "text": "english class timings?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "subject",
+      "examples": [
+        {
+          "text": "tel sub link?"
+        },
+        {
+          "text": "link for maths notes?"
+        },
+        {
+          "text": "link for social notes?"
+        },
+        {
+          "text": "what is the link for hindi subject?"
+        },
+        {
+          "text": "what is the link for telugu subject?"
+        },
+        {
+          "text": "what is the link for english subject?"
+        },
+        {
+          "text": "what is the link for maths subject?"
+        },
+        {
+          "text": "subject links?"
+        },
+        {
+          "text": "what is the link for social subject?"
+        },
+        {
+          "text": "telugu notes"
+        },
+        {
+          "text": "hindi notes"
+        },
+        {
+          "text": "english notes"
+        },
+        {
+          "text": "link for english notes?"
+        },
+        {
+          "text": "eng sub link?"
+        },
+        {
+          "text": "hin sub link"
+        },
+        {
+          "text": "sci sub link?"
+        },
+        {
+          "text": "maths sub link?"
+        },
+        {
+          "text": "social sub link?"
+        },
+        {
+          "text": "link for hindi?"
+        },
+        {
+          "text": "link for telugu?"
+        },
+        {
+          "text": "link for maths?"
+        },
+        {
+          "text": "link for english?"
+        },
+        {
+          "text": "link for social?"
+        },
+        {
+          "text": "link for science?"
+        },
+        {
+          "text": "which subject material do you want"
+        },
+        {
+          "text": "Which subject material you want to refer"
+        },
+        {
+          "text": "what is the link for science subject?"
+        },
+        {
+          "text": "link for science notes?"
+        },
+        {
+          "text": "link for telugu notes?"
+        },
+        {
+          "text": "link for hindi notes?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "subjects_available_to_study",
+      "examples": [
+        {
+          "text": "what are the subjects available?"
+        },
+        {
+          "text": "no.of subjects?"
+        },
+        {
+          "text": "subjects available?"
+        },
+        {
+          "text": "no.of subjects available?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Timings_for_social_class",
+      "examples": [
+        {
+          "text": "what are the timings for social class?"
+        },
+        {
+          "text": "social class hours?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "timings_for_maths_class",
+      "examples": [
+        {
+          "text": "when does the maths class starts?"
+        },
+        {
+          "text": "what are the timings of maths class"
+        },
+        {
+          "text": "maths class timings?"
+        },
+        {
+          "text": "what are the timings of maths class?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "timings_for_chemistry_class",
+      "examples": [
+        {
+          "text": "what are the timings of chemisrty class"
+        },
+        {
+          "text": "when does chemistry class starts?"
+        },
+        {
+          "text": "chemisrty class timings?"
+        },
+        {
+          "text": "when does the chemistry class starts?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "timings_for_biology_class",
+      "examples": [
+        {
+          "text": "bio class"
+        },
+        {
+          "text": "when does biology class starts?"
+        },
+        {
+          "text": "biology class timings?"
+        },
+        {
+          "text": "what are the timings of biology class?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "thank_you",
+      "examples": [
+        {
+          "text": "Thx"
+        },
+        {
+          "text": "Anytime. That's what I'm here for"
+        },
+        {
+          "text": "It's my pleasure to help"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Thanks"
+        },
+        {
+          "text": "Cheers!"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Timings_for_physics_class",
+      "examples": [
+        {
+          "text": "when does the science class starts?"
+        },
+        {
+          "text": "At what time the science class starts?"
+        },
+        {
+          "text": "what are timings for physics class?"
+        },
+        {
+          "text": "timings for physics class?"
+        },
+        {
+          "text": "physics class timings?"
+        }
+      ],
+      "description": "displays the timings of physics class"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "subject",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "maths",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "social",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "english",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "telugu",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hindi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "science",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1590400946583",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1590400946625",
+      "previous_sibling": "handler_1_1590400946625"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1590400946583",
+      "event_name": "input",
+      "dialog_node": "handler_1_1590400946625"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "You can refer to the given link for <a href=\"http://www.sakshieducation.com/(S(284dzlxpnml1y4eh55en4i2k45))/Tclass/Maths.html\">maths</a>subject"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1590419454193",
+      "conditions": "$subject==\"maths\"",
+      "event_name": "filled",
+      "dialog_node": "handler_4_1590428282084",
+      "previous_sibling": "handler_2_1590427990839"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "You can refer to the given link for <a href=\"https://tsbadi.in/ssc-10th-class/ssc-10th-class-english-study-material/\">english</a>subject"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1590419454193",
+      "conditions": "$subject==\"english\"",
+      "event_name": "filled",
+      "dialog_node": "handler_2_1590427990839",
+      "previous_sibling": "handler_10_1590427532090"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "You can refer to the given link for <a href=\"https://www.sakshieducation.com/Tclass/Social.html\">social</a>subject"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1590419454193",
+      "conditions": "$subject==\"social\"",
+      "event_name": "filled",
+      "dialog_node": "handler_9_1590428506026",
+      "previous_sibling": "handler_4_1590428282084"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "You can refer to the given link for <a href=\"https://www.vedantu.com/ncert-books/ncert-books-class-10\"></a>subject"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1590419454193",
+      "conditions": "true",
+      "event_name": "nomatch",
+      "dialog_node": "handler_4_1590426068933",
+      "previous_sibling": "handler_6_1590426041226"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "You can refer to the given link for <a href=\"https://www.schools360.in/10th-class-telugu-study-material-pdf/\">telugu</a>subject"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1590419454193",
+      "conditions": "$subject==\"telugu\"",
+      "event_name": "filled",
+      "dialog_node": "handler_6_1590426041226",
+      "previous_sibling": "handler_3_1590425887985"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "You can refer to the given link for <a href=\"https://www.jagranjosh.com/articles/cbse-class-10-science-complete-study-material-1520416025-1 \">science</a>subject"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1590419454193",
+      "conditions": "$subject==\"science\"",
+      "event_name": "filled",
+      "dialog_node": "handler_3_1590425887985",
+      "previous_sibling": "handler_2_1590419454235"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "You can refer to the given link for <a href=\"https://www.sakshieducation.com/TClass/Hindi.html\">hindi</a>subject"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1590419454193",
+      "conditions": "$subject==\"hindi\"",
+      "event_name": "filled",
+      "dialog_node": "handler_10_1590427532090",
+      "previous_sibling": "handler_4_1590426068933"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "what is the subject u r looking for ?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1590419454193",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1590419454235",
+      "previous_sibling": "handler_1_1590419454235"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1590419454193",
+      "context": {
+        "subject": "@subject"
+      },
+      "conditions": "@subject",
+      "event_name": "input",
+      "dialog_node": "handler_1_1590419454235"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1590418970535",
+      "variable": "$subject",
+      "dialog_node": "slot_5_1590419454193",
+      "previous_sibling": "handler_3_1590419453114"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_4_1590418970535",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1590419453114"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1590398075600",
+      "dialog_node": "slot_9_1590400946583",
+      "previous_sibling": "handler_1_1590400945433"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_6_1590398075600",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1590400945433"
+    },
+    {
+      "type": "standard",
+      "title": "timings for hindi class",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The Hindi class starts at 2 pm every Tuesday, Wednesday,Saturday."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#timings_for_hindi_class",
+      "dialog_node": "node_6_1590395374135",
+      "previous_sibling": "node_3_1590397879694"
+    },
+    {
+      "type": "standard",
+      "title": "timings of physics class",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "the physics class starts at 10 in the morning every Tuesday, Thursday and Saturday"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Timings_for_physics_class",
+      "dialog_node": "node_5_1590392732823",
+      "previous_sibling": "node_4_1590392988562"
+    },
+    {
+      "type": "standard",
+      "title": "timings for social class",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The social class starts at 9 in the morning every Monday and Wednesday."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Timings_for_social_class",
+      "dialog_node": "node_4_1590392988562",
+      "previous_sibling": "node_6_1590394103265"
+    },
+    {
+      "type": "standard",
+      "title": "timings_for_chemistry_class",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The Chemistry class starts at 11 in the morning every Monday,Thursday,Friday."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#timings_for_chemistry_class",
+      "dialog_node": "node_3_1590397879694",
+      "previous_sibling": "node_2_1590397732240"
+    },
+    {
+      "type": "standard",
+      "title": "timings_for_english_class",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The English class starts at 1 pm every Monday,Wednesday,Friday."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#timings_for_english_class",
+      "dialog_node": "node_1_1590395483476",
+      "previous_sibling": "node_6_1590395374135"
+    },
+    {
+      "type": "standard",
+      "title": "timings for telugu class",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The Telugu class starts at 11 in the morning every Tuesday,Friday and Saturday."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#timings_for_telugu_class",
+      "dialog_node": "node_6_1590394103265",
+      "previous_sibling": "node_1_1590395483476"
+    },
+    {
+      "type": "frame",
+      "title": "subject",
+      "conditions": "#subject",
+      "dialog_node": "node_4_1590418970535",
+      "previous_sibling": "node_9_1590419366420"
+    },
+    {
+      "type": "standard",
+      "title": "greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Welcome "
+              },
+              {
+                "text": "Hi How can I help U?"
+              },
+              {
+                "text": "Hi I am your assistant. Tell me how can I help."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#greetings",
+      "dialog_node": "node_9_1590419366420",
+      "previous_sibling": "node_1_1590431007341"
+    },
+    {
+      "type": "standard",
+      "title": "subjects available",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "There are 8 subjects available to study. Telugu, Hindi, English, Maths,Physics,Chemistry,Biology,Social"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#subjects_available_to_study",
+      "dialog_node": "node_5_1590401707559",
+      "previous_sibling": "node_4_1590418970535"
+    },
+    {
+      "type": "frame",
+      "title": "timings_for_biology_class",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The Biology class starts at 9 am in the morning every Thursday,Friday and Saturday.\n"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#timings_for_biology_class",
+      "dialog_node": "node_6_1590398075600",
+      "previous_sibling": "node_5_1590401707559"
+    },
+    {
+      "type": "standard",
+      "title": "Thank You",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank You!"
+              },
+              {
+                "text": "You Are Welcome!"
+              },
+              {
+                "text": "It's My Pleasure to Help you"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#thank_you",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_5_1590392732823",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "timings_for_maths_class",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The maths class starts at 1 pm every Tuesday, Thursday, Saturday. "
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#timings_for_maths_class",
+      "dialog_node": "node_2_1590397732240",
+      "previous_sibling": "node_6_1590398075600"
+    },
+    {
+      "type": "standard",
+      "title": "welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi I am here to help you with your studies!"
+              },
+              {
+                "text": "Hi there how can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "node_1_1590431007341"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "remote education",
+  "language": "en",
+  "description": ""
+}
